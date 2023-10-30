@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <section className='hero'>
+      <div className='content' >
+        <h1>З днем народження!!!</h1>
+        <a href='#'> Ти іменинниця сьогодні?</a>
+      </div>
+    </section>
+   
   );
 }
 
