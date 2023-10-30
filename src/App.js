@@ -1,21 +1,18 @@
-import "./App.css";
-import Image from "./images/background2.jpg";
+import React from "react";
+import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+
+// import "./App.css";
+
+import Album from "./album";
+import Home from "./home";
 
 function App() {
   return (
-    <section style={{opacity:"0.7"}}>
-      <div
-        className="hero"
-        style={{
-          backgroundImage: `url(${Image})`,
-        }}
-      >
-       
-      </div> <div className="content">
-        
-          <button type="submit" > Тицьни мене</button>
-        </div>
-    </section>
+    <Router>
+      <Routes><Route path="/" exact component={Home} />
+      <Route path="/album" component={Album} /></Routes>
+      
+    </Router>
   );
 }
 

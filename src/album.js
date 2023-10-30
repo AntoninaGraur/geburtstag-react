@@ -1,6 +1,7 @@
 import React from 'react'
 
-function album() {
+function Album() {
+    
   return (
     <div>
       
@@ -8,4 +9,4 @@ function album() {
   )
 }
 
-export default album
+export default Album;
