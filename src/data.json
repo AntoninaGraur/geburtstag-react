@@ -1,12 +1,14 @@
-[
-  {
-    "id": 1,
-    "image_url": "./images/SP_A0087.jpg",
-    "title": "Мила"
-  },
-  {
-    "id": 2,
-    "image_url": "./images/20180309_222011.jpg",
-    "title": "Super"
-  }
-]
+{
+  "items": [
+    {
+      "id": 1,
+      "image_url": "./images/SP_A0087.jpg",
+      "title": "Заголовок 1"
+    },
+    {
+      "id": 2,
+      "image_url": "./images/20180309_222011.jpg",
+      "title": "Заголовок 2"
+    }
+  ]
+}
