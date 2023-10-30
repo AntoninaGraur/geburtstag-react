@@ -1,12 +1,13 @@
 
 import './App.css';
+import Image from './images/background2.jpg'
 
 function App() {
   return (
-    <section className='hero'>
+    <section className='hero' style={{backgroundImage:`url(${Image})`}}>
       <div className='content' >
         <h1>З днем народження!!!</h1>
-        <a href='#'> Ти іменинниця сьогодні?</a>
+        <a href='#'> Тицяй</a>
       </div>
     </section>
    
