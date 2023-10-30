@@ -4,7 +4,7 @@ function Album() {
     
   return (
     <div>
-      
+      <h1>My Album</h1>
     </div>
   )
 }
