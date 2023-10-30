@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 export const NavigationLink = styled(NavLink)`
   color: #040925;
   outline: transparent;
-  background-color: rgb(243, 183, 4);
+  background-color: rgb(243 237 4);
   padding: 22px 20px;
   border-radius: 25px;
   font-size: 55px;
@@ -22,5 +22,19 @@ export const NavigationLink = styled(NavLink)`
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    
+  &:hover {
+    transform: scale(1.5);
+  }
+`;
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  opacity: unset;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 254px;
 `;
