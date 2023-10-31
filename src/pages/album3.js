@@ -8,8 +8,8 @@ import Image28 from "../images/received_234804240777734.jpeg";
 import Image29 from "../images/IMG-646a1c38c0fa88f8bda9e0495b8c5d7e-V.jpg";
 import Image30 from "../images/IMG-36dae4044976ac88cf927ee6dd8fd128-V.jpg";
 import Image31 from "../images/IMG-63a9901352350fe017a61d216c32fc0f-V.jpg";
-import Image16 from "../images/IMAG1871.jpg";
-import Image17 from "../images/IMAG1969.jpg";
+import Image32 from "../images/IMG-68bf41f8017c65f46d00edd4c64846fe-V.jpg";
+import Image33 from "../images/IMG-74a44df78531918913f6633ffc74e0f8-V.jpg";
 import Image18 from "../images/IMAG2644.jpg";
 import Image19 from "../images/IMG_20190617_121951.jpg";
 import Image20 from "../images/IMG_20200826_155317.jpg";
@@ -52,10 +52,10 @@ function Album3() {
             <Image3 src={Image31} alt="Personal foto" />
           </li>
           <li>
-            <Image3 src={Image16} alt="Personal foto" />
+            <Image3 src={Image32} alt="Personal foto" />
           </li>
           <li>
-            <Image3 src={Image17} alt="Personal foto" />
+            <Image3 src={Image33} alt="Personal foto" />
           </li>
           <li>
             <Image3 src={Image18} alt="Personal foto" />
